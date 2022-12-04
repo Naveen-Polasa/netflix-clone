@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix Clone</title>
-</head>
-<body>
-    <div>
-        <div><img src="" alt=""></div>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="first h-[95vh] bg-cover bg-no-repeat bg-[url('/assets/background-img.jpg')]"
+    >
+      <div class="flex items-center justify-between">
+        <img
+          class="w-52 ml-12 pt-2"
+          src="./assets/Netflix_Logo_PMS.png"
+          alt="logo_red"
+        />
+        <div class="mr-12">
+          <button class="text-white h-10 px-6 py-2 m-4 border rounded">
+            English
+          </button>
+          <button class="h-10 px-6 py-2 pt m-4 text-white bg-red-700 rounded">
+            Sign in
+          </button>
+        </div>
+      </div>
+      <div class="h-[85vh] flex flex-col items-center justify-center text-white text-center">
+        <h1 class="text-7xl w-[50%] ">Unlimited movies, TV shows and more.</h1>
+        <h2 class="text-2xl leading-[4rem]">Watch anywhere. Cancel anytime.</h2>
+        <p class="text-lg leading-[3rem]">Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="flex">
+            <input class="h-16 w-[30vw]" type="email" name="email" placeholder="  Email address">
+            <button class="flex items-center text-3xl bg-red-600 pl-8 h-16 w-[15vw]">Get Started <img  class="w-5 pt-1 text-white" src="./assets/righ.svg" alt="right-angle"></button>
+        </div>
+        </div>
     </div>
-</body>
+  </body>
 </html>
