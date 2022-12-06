@@ -10,21 +10,31 @@
   <body>
     <div class="bg-[#000000]">
       <div
-        class="h-[65vh] sm:h-[90vh] xl:h-[95vh] bg-cover bg-no-repeat bg-[url('/assets/background-img.jpg')] border-b-8 border-gray-800"
+        class="h-[65vh] sm:h-[90vh] xl:h-[95vh] bg-cover bg-no-repeat bg-[url('/assets/background-img.jpg')] border-b-8 border-gray-800  "
       >
-        <div class="flex items-center justify-between">
+      <div class="bg-black bg-opacity-60 h-[100vh]">
+        
+        <div class="flex items-center justify-between ">
           <img
             class="w-28 sm:w-36 lg:w-52 ml-4 sm:ml-8 pt-4"
             src="./assets/Netflix_Logo_PMS.png"
             alt="logo_red"
           />
-          <div class="mr-4 sm:mr-10">
+          <div class="flex mr-4 sm:mr-10">
             <button
-              class="text-white h-8 sm:rounded-none px-4 m-2 border rounded"
+              class="flex justify-center items-center text-white h-8 sm:rounded-none m-2 mr-6 border rounded"
             >
-              English
+              <img class="w-4 mx-1  " src="./assets/globe (1).png" alt="globe" />
+            English
+            <img
+              class="w-3 mx-1 pt-1"
+              src="./assets/down-filled-triangular-arrow.png"
+              alt="drop-down"
+            />
             </button>
-            <button class="h-8 px-4 m-2 text-white bg-[#e50914] rounded hover:bg-[#e50914]">
+            <button
+              class="h-8 px-4 m-2 text-white bg-[#e50914] rounded hover:bg-[#e50914]"
+            >
               Sign in
             </button>
           </div>
@@ -66,12 +76,13 @@
           </div>
         </div>
       </div>
+      </div>
       <!-- hero section start -->
       <div
-        class="flex flex-col lg:flex-row h-[60%] p-8 text-white text-center lg:pl-4 lg:text-start border-b-8 border-gray-800 xl:px-28  "
+        class="flex flex-col lg:flex-row h-[60%] p-8 text-white text-center lg:pl-4 lg:text-start border-b-8 border-gray-800 xl:px-28"
       >
         <div
-          class="flex flex-col lg:justify-center items-center xl:ml-[10%] xl:max-w-[40%]  "
+          class="flex flex-col lg:justify-center items-center xl:ml-[10%] xl:max-w-[40%]"
         >
           <h1
             class="text-2xl sm:text-4xl lg:text-5xl lg:self-start font-bold my-3"
@@ -93,10 +104,10 @@
       </div>
 
       <div
-        class="flex flex-col lg:flex-row h-[60%] p-8 text-white text-center xl:pl-24 lg:text-start border-b-8 border-gray-800 xl:px-28 "
+        class="flex flex-col lg:flex-row h-[60%] p-8 text-white text-center xl:pl-24 lg:text-start border-b-8 border-gray-800 xl:px-28"
       >
         <div
-          class="flex flex-col lg:justify-center items-center xl:ml-[10%]  xl:max-w-[45%] lg:order-1"
+          class="flex flex-col lg:justify-center items-center xl:ml-[10%] xl:max-w-[45%] lg:order-1"
         >
           <h1
             class="text-2xl sm:text-4xl lg:text-5xl lg:self-start font-bold my-3"
@@ -107,9 +118,9 @@
             Save your favourites easily and always have something to watch.
           </h2>
         </div>
-        <div >
+        <div>
           <img
-            class="md:max-w-[40rem] lg:w-[30rem] md:ml-[15%] "
+            class="md:max-w-[40rem] lg:w-[30rem] md:ml-[15%]"
             src="./assets/mobile-0819.jpg"
             alt="mobile1"
           />
@@ -132,7 +143,7 @@
             and TV.
           </h2>
         </div>
-        <div >
+        <div>
           <img
             class="md:max-w-[40rem] lg:w-[30rem] md:ml-[12%] lg:ml-0"
             src="./assets/img_2.png"
@@ -168,56 +179,80 @@
       <!-- hero section start -->
 
       <!-- faq start -->
-      <div class="flex flex-col h-[85vh] lg:h-[95vh] text-white px-14 md:px-28  lg:px-48 xl:px-80  mt-14 border-b-8 border-gray-800">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl  text-bold text-center px-14 md:px-0">Frequently Asked Questions</h1>
+      <div
+        class="flex flex-col h-[85vh] lg:h-[95vh] text-white px-14 md:px-28 lg:px-48 xl:px-80 mt-14 border-b-8 border-gray-800"
+      >
+        <h1
+          class="text-3xl md:text-4xl lg:text-5xl text-bold text-center px-14 md:px-0"
+        >
+          Frequently Asked Questions
+        </h1>
         <div class="flex justify-between p-3 lg:p-5 mt-5 md:mt-10 bg-[#303030]">
+          <h2 class="text-lg md:text-xl lg:text-2xl">What is Netflix?</h2>
+          <img
+            class="w-8 md:w-6 md:h-6 p-2 md:p-0"
+            src="./assets/plus.png"
+            alt="plus"
+          />
+        </div>
+        <div class="flex justify-between p-3 lg:p-5 mt-2 bg-[#303030]">
           <h2 class="text-lg md:text-xl lg:text-2xl">
-            What is Netflix?
-        </h2>
-        <img class="w-8 md:w-6 md:h-6 p-2 md:p-0" src="./assets/plus.png" alt="plus" />
-        </div>
-        <div class="flex justify-between p-3 lg:p-5 mt-2 bg-[#303030]">
-          <h2 class="text-lg  md:text-xl lg:text-2xl ">
             How much does Netflix cost?
-        </h2>
-        <img class="w-8 p-2 md:w-6 md:h-6 md:p-0" src="./assets/plus.png" alt="plus" />
+          </h2>
+          <img
+            class="w-8 p-2 md:w-6 md:h-6 md:p-0"
+            src="./assets/plus.png"
+            alt="plus"
+          />
         </div>
         <div class="flex justify-between p-3 lg:p-5 mt-2 bg-[#303030]">
-          <h2 class="text-lg  md:text-xl lg:text-2xl">
-            Where can I watch?
-        </h2>
-        <img class="w-8 p-2 md:w-6 md:h-6 md:p-0" src="./assets/plus.png" alt="plus" />
+          <h2 class="text-lg md:text-xl lg:text-2xl">Where can I watch?</h2>
+          <img
+            class="w-8 p-2 md:w-6 md:h-6 md:p-0"
+            src="./assets/plus.png"
+            alt="plus"
+          />
         </div>
         <div class="flex justify-between p-3 lg:p-5 mt-2 bg-[#303030]">
-          <h2 class="text-lg  md:text-xl lg:text-2xl">
-            How do I cancel?
-        </h2>
-        <img class="w-8 p-2 md:w-6  md:h-6 md:p-0" src="./assets/plus.png" alt="plus" />
+          <h2 class="text-lg md:text-xl lg:text-2xl">How do I cancel?</h2>
+          <img
+            class="w-8 p-2 md:w-6 md:h-6 md:p-0"
+            src="./assets/plus.png"
+            alt="plus"
+          />
         </div>
         <div class="flex justify-between p-3 lg:p-5 mt-2 bg-[#303030]">
-          <h2 class="text-lg  md:text-xl lg:text-2xl">
+          <h2 class="text-lg md:text-xl lg:text-2xl">
             What can I watch on Netflix?
-        </h2>
-        <img class="w-8 p-2 md:w-6  md:h-6 md:p-0" src="./assets/plus.png" alt="plus" />
+          </h2>
+          <img
+            class="w-8 p-2 md:w-6 md:h-6 md:p-0"
+            src="./assets/plus.png"
+            alt="plus"
+          />
         </div>
         <div class="flex justify-between p-3 lg:p-5 mt-2 bg-[#303030]">
-          <h2 class="text-lg  md:text-xl lg:text-2xl">
+          <h2 class="text-lg md:text-xl lg:text-2xl">
             Is Netflix good for kids?
-        </h2>
-        <img class="w-8 p-2 md:w-6 md:h-6 md:p-0" src="./assets/plus.png" alt="plus" />
+          </h2>
+          <img
+            class="w-8 p-2 md:w-6 md:h-6 md:p-0"
+            src="./assets/plus.png"
+            alt="plus"
+          />
         </div>
         <p class="text-sm md:text-lg text-center mt-8 mb-2 px-6">
           Ready to watch? Enter your email to create or restart your membership.
         </p>
         <div class="flex flex-col md:flex-row lg:mx-12 justify-center">
           <input
-            class="h-10 md:h-12 lg:h-14  xl:h-16 w-[100%] sm:w-[32rem] md:w-[28rem] lg:w-[34rem] self-center sm:my-2"
+            class="h-10 md:h-12 lg:h-14 xl:h-16 w-[100%] sm:w-[32rem] md:w-[28rem] lg:w-[34rem] self-center sm:my-2"
             type="email"
             name="email"
             placeholder="  Email address"
           />
           <button
-            class="flex self-center w-32 md:w-52 items-center bg-red-700 hover:bg-[#e50914] pl-4 md:pl-7 h-10 md:h-12 lg:h-14 xl:h-16 m-2 md:m-0 md:text-2xl "
+            class="flex self-center w-32 md:w-52 items-center bg-red-700 hover:bg-[#e50914] pl-4 md:pl-7 h-10 md:h-12 lg:h-14 xl:h-16 m-2 md:m-0 md:text-2xl"
           >
             Get Started
             <img
@@ -230,31 +265,37 @@
       </div>
       <!-- faq end -->
       <!-- footer start -->
-      <div class="flex flex-col text-[#737373] px-14 md:px-28  lg:px-40 xl:px-64 mt-14">
+      <div
+        class="flex flex-col text-[#737373] px-14 md:px-28 lg:px-40 xl:px-64 mt-14"
+      >
         <h1>Questions? Call 000-800-919-1694</h1>
-        <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 text-sm  my-4">
-            <li class="my-1 md:mr-4 hover:underline">FAQ</li>
-            <li class="my-1 md:mr-4 hover:underline">Investor Relations</li>
-            <li class="my-1 md:mr-4 hover:underline">Privacy</li>
-            <li class="my-1 md:mr-4 hover:underline">Speed Test</li>
-            <li class="my-1 md:mr-4 hover:underline">Help Centre</li>
-            <li class="my-1 md:mr-4 hover:underline">Jobs</li>
-            <li class="my-1 md:mr-4 hover:underline">Cookie Preferences</li>
-            <li class="my-1 md:mr-4 hover:underline">Legal Notices</li>
-            <li class="my-1 md:mr-4 hover:underline">Account</li>
-            <li class="my-1 md:mr-4 hover:underline">Ways to Watch</li>
-            <li class="my-1 md:mr-4 hover:underline">Corporate Information</li>
-            <li class="my-1 md:mr-4 hover:underline">Only on Netflix</li>
-            <li class="my-1 md:mr-4 hover:underline">Media Centre</li>
-            <li class="my-1 md:mr-4 hover:underline">Terms of Use</li>
-            <li class="my-1 md:mr-4 hover:underline">Contact Us</li>
+        <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 text-sm my-4">
+          <li class="my-1 md:mr-4 hover:underline">FAQ</li>
+          <li class="my-1 md:mr-4 hover:underline">Investor Relations</li>
+          <li class="my-1 md:mr-4 hover:underline">Privacy</li>
+          <li class="my-1 md:mr-4 hover:underline">Speed Test</li>
+          <li class="my-1 md:mr-4 hover:underline">Help Centre</li>
+          <li class="my-1 md:mr-4 hover:underline">Jobs</li>
+          <li class="my-1 md:mr-4 hover:underline">Cookie Preferences</li>
+          <li class="my-1 md:mr-4 hover:underline">Legal Notices</li>
+          <li class="my-1 md:mr-4 hover:underline">Account</li>
+          <li class="my-1 md:mr-4 hover:underline">Ways to Watch</li>
+          <li class="my-1 md:mr-4 hover:underline">Corporate Information</li>
+          <li class="my-1 md:mr-4 hover:underline">Only on Netflix</li>
+          <li class="my-1 md:mr-4 hover:underline">Media Centre</li>
+          <li class="my-1 md:mr-4 hover:underline">Terms of Use</li>
+          <li class="my-1 md:mr-4 hover:underline">Contact Us</li>
         </ul>
-         <button
-              class="font-medium h-12 w-32  border border-[#737373] "
-            >
-              English
-            </button>
-            <p class="my-6 text-sm">Netflix India</p>
+        <button class="flex justify-center items-center font-medium h-12 w-36 border border-[#737373]">
+            <img class="w-4 m-3  " src="./assets/globe (1).png" alt="globe" />
+            English
+            <img
+              class="w-3 m-2 pt-0.5"
+              src="./assets/down-filled-triangular-arrow.png"
+              alt="drop-down"
+            />
+        </button>
+        <p class="my-6 text-sm">Netflix India</p>
       </div>
       <!-- footer end -->
     </div>
